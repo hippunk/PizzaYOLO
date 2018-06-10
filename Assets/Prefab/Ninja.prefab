@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1665787923776424}
+  m_IsPrefabParent: 1
+--- !u!1 &1271652887966396
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4962553692318532}
+  - component: {fileID: 33154349167866926}
+  - component: {fileID: 23717467390184294}
+  m_Layer: 0
+  m_Name: egout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1594296856726184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4441226940622724}
+  - component: {fileID: 95958555894516970}
+  m_Layer: 0
+  m_Name: RotationNinja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1665787923776424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4274909746353882}
+  - component: {fileID: 65389641310676032}
+  - component: {fileID: 114644425585818142}
+  m_Layer: 0
+  m_Name: Ninja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4274909746353882
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1665787923776424}
+  m_LocalRotation: {x: -0, y: -0, z: -0.20445254, w: 0.97887653}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4441226940622724}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.595001}
+--- !u!4 &4441226940622724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594296856726184}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0025302467, w: 0.99999684}
+  m_LocalPosition: {x: -0.186, y: -0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4962553692318532}
+  m_Father: {fileID: 4274909746353882}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.29000002}
+--- !u!4 &4962553692318532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271652887966396}
+  m_LocalRotation: {x: -0.70694715, y: 0.014997378, z: -0.014997631, w: 0.70694834}
+  m_LocalPosition: {x: 0.24999967, y: 0.005999839, z: 0.018000007}
+  m_LocalScale: {x: 20, y: 20.000027, z: 20.00002}
+  m_Children: []
+  m_Father: {fileID: 4441226940622724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -92.42999, y: -90.00299, z: 90.003}
+--- !u!23 &23717467390184294
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271652887966396}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  - {fileID: 2100002, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  - {fileID: 2100004, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  - {fileID: 2100006, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  - {fileID: 2100008, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  - {fileID: 2100010, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33154349167866926
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1271652887966396}
+  m_Mesh: {fileID: 4300000, guid: e8c0db480879bad4d986ebad1ea2aa79, type: 3}
+--- !u!65 &65389641310676032
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1665787923776424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.33778572, y: 0.22848892, z: 0.35707402}
+  m_Center: {x: 0.028931618, y: 0.109297514, z: 0.019287705}
+--- !u!95 &95958555894516970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594296856726184}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e59a83ffd970e24b84bc80dc4f3678e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114644425585818142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1665787923776424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca34d7df63e3be459e44f5e02c300c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasCollided: 0
+  ShittyPizzaPrefab: {fileID: 1639285835208590, guid: ae014d5f072c61c4f9dc9be4d993f318,
+    type: 2}
